@@ -15,25 +15,18 @@ If there is file witch match command it will be used and write to console. Other
 
 Known commands and synonyms:
 
-About - File: About.txt
-ABOUT
--ABOUT
---ABOUT
+About
+-File: About.txt
+-Commands: ABOUT,-ABOUT,--ABOUT
 
-Help - File: Help.txt
-HELP
--HELP
---HELP
-?
--?
---?
+Help 
+- File: Help.txt
+-Commands: HELP,-HELP,--HELP,?,-?,--?
 
-Test  - File: Test.txt
-TEST
--TEST
---TEST
+Test  
+- File: Test.txt
+-Commands: TEST,-TEST,--TEST
 
-Test  - File: ReadMe.txt
-README
--README
---README
+Test  
+- File: ReadMe.txt
+-Commands: README,-README,--README
