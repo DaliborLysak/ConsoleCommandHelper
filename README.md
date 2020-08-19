@@ -1,5 +1,5 @@
 # ConsoleCommandHelper
-Library for helping processing usual console apps commands as help, about, etc... 
+Library for helping processing usual console apps commands as help, about, etc..., through files accessed in your console app. 
 
 Motivation
 I do a lot of small console apps for geocaching and personal use and after some time not using them I usually end up reading and learning again what are app console commands. And this is because I always fail struggle to find out time to write readme or help. For that reason I write this helper.
@@ -19,14 +19,14 @@ About
 -File: About.txt
 -Commands: ABOUT,-ABOUT,--ABOUT
 
-Help 
+Help
 -File: Help.txt
 -Commands: HELP,-HELP,--HELP,?,-?,--?
 
-Test  
+Test
 -File: Test.txt
 -Commands: TEST,-TEST,--TEST
 
-ReadMe  
+ReadMe
 -File: ReadMe.txt
 -Commands: README,-README,--README

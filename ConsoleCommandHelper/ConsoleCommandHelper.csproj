@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>Console.Command.Helper</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Dalibor Lysak</Authors>
+    <Company>Dalibor Lysak</Company>
+    <Description>
+    Library for helping processing usual console apps commands as help, about, etc..., through files accessed in your console app.
+    </Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
