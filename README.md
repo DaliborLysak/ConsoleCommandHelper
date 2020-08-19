@@ -20,13 +20,13 @@ About
 -Commands: ABOUT,-ABOUT,--ABOUT
 
 Help 
-- File: Help.txt
+-File: Help.txt
 -Commands: HELP,-HELP,--HELP,?,-?,--?
 
 Test  
-- File: Test.txt
+-File: Test.txt
 -Commands: TEST,-TEST,--TEST
 
-Test  
-- File: ReadMe.txt
+ReadMe  
+-File: ReadMe.txt
 -Commands: README,-README,--README
