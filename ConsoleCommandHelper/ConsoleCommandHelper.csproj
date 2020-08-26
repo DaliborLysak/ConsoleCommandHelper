@@ -10,6 +10,7 @@
     Library for helping processing usual console apps commands as help, about, etc..., through files accessed in your console app.
     </Description>
     <RepositoryUrl>https://github.com/DaliborLysak/ConsoleCommandHelper</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
