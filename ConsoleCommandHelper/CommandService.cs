@@ -29,7 +29,12 @@ namespace ConsoleCommandHelper
             }
             catch (Exception e)
             {
-                Trace.TraceInformation($"Command execution failed with exception: {e}");
+                var message = $"Command execution failed with exception: {e}";
+                var color = Console.ForegroundColor;
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(message);
+                Console.ForegroundColor = color;
+                Trace.TraceInformation(message);
             }
 
             return commandObject != null ? String.Empty : command;

@@ -10,20 +10,7 @@ namespace ConsoleCommandHelper
     {
         public void Execute()
         {
-            var executablePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            if (Directory.Exists(executablePath))
-            {
-                var fileName = GetFileName(this.GetType());
-                var path = Path.Combine(executablePath, fileName);
-                if (Directory.GetFiles(executablePath).Select(f => Path.GetFileName(f).ToUpperInvariant()).ToList().Contains(fileName.ToUpperInvariant()))
-                {
-                    Execute(path);
-                }
-                else
-                {
-                    throw new FileNotFoundException($"File {path} is missing!");
-                }
-            }
+            Execute(AssemblyLocation.Get(GetFileName(this.GetType())));
         }
 
         protected virtual void Execute(string path)
